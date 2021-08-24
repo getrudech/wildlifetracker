@@ -82,7 +82,7 @@
                 </configuration>
             </plugin>
             <plugin>
-                <groupId>com.heroku.sdk</groupId>
+                <groupId>com.herokusdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
                 <configuration>
                     <processTypes>
