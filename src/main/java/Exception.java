@@ -10,7 +10,7 @@ public class Exception extends Throwable {
                 throw new ArithmeticException();
             else System.out.println( "result : " + Math.sqrt(nb1) );
         } catch (ArithmeticException e) {
-            System.out.println("This is an arithmetic exception!");
+            System.out.println("This is an arithmetic exception!!");
         }
     }
     public void doChangePin(int oldPin, int pin) throws Exception {	//need to add throws followed by exception name
